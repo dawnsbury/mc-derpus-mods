@@ -20,6 +20,7 @@ using Dawnsbury.Core.Mechanics.Treasure;
 using Dawnsbury.Core.CharacterBuilder.Selections.Options;
 using Dawnsbury.Display.Illustrations;
 using System.IO;
+using Dawnsbury.Core.Creatures.Parts.Resistances;
 using Dawnsbury.Mods.StarfinderSharedFunctionality;
 
 namespace Dawnsbury.Mods.Classes.StarfinderSoldier;
