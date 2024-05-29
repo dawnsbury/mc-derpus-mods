@@ -350,7 +350,7 @@ public class StarfinderSoldierLoader
                         {
                             if (attacker.QEffects.Any((qft)=>qft.Name == "Suppressed"))
                             {
-                                return new ReduceDamageModification(Math.Max(Math.Max(self.Level / 2, 1) - self.WeaknessAndResistance.Resistances.FirstOrDefault(r => r.DamageKind == dStuff.Kind, new Resistance(DamageKind.Chaotic, 0)).Value, 0), "Resistance equal to 1/2 level (minimum 1) against suppressed targets");
+                                return new ReduceDamageModification(Math.Max(Math.Max(self.Level / 2, 1) - self.WeaknessAndResistance.Resistances.FirstOrDefault(r => r is Resistance rs && rs.DamageKind == dStuff.Kind, new Resistance(DamageKind.Chaotic, 0)).Value, 0), "Resistance equal to 1/2 level (minimum 1) against suppressed targets");
                             }
                             else
                             {
