@@ -2,11 +2,7 @@
 using Dawnsbury.Core.Mechanics;
 using Dawnsbury.Modding;
 using Dawnsbury.Core.Mechanics.Core;
-using System;
 using Dawnsbury.Core.Creatures;
-using System.Linq;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using Dawnsbury.Core.CharacterBuilder.AbilityScores;
 using Dawnsbury.Core.CharacterBuilder.Feats;
 using Dawnsbury.Core.Creatures.Parts;
@@ -19,8 +15,6 @@ using Dawnsbury.Core;
 using Dawnsbury.Core.Mechanics.Treasure;
 using Dawnsbury.Core.CharacterBuilder.Selections.Options;
 using Dawnsbury.Display.Illustrations;
-using System.IO;
-using Dawnsbury.Core.Creatures.Parts.Resistances;
 using Dawnsbury.Mods.StarfinderSharedFunctionality;
 
 namespace Dawnsbury.Mods.Classes.StarfinderSoldier;
